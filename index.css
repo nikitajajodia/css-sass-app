@@ -1,0 +1,91 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #242D42;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  padding: 0 200px;
+  box-sizing: border-box;
+}
+
+.app-header {
+  width: 100%;
+  height: 80px;
+  padding: 15px 80px;
+  box-sizing: border-box;
+  border-bottom: 1px solid;
+}
+.app-header p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.app-sidebar {
+  width: 275px;
+  height: 100%;
+  position: fixed;
+  padding: 40px 20px;
+  background-color: #242D42;
+  top: 80px;
+}
+
+.sb-user-profile {
+  width: 100%;
+  text-align: center;
+}
+.sb-user-profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.sb-user-profile img:hover {
+  transform: rotateY(180deg);
+}
+.sb-user-profile .sb-user-name {
+  color: #6C7E90;
+  margin: 0px;
+  font-size: 16px;
+}
+.sb-user-profile .sb-user-address {
+  color: #6C7E90;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.sb-menu-items ul {
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+}
+.sb-menu-items ul li {
+  font-size: 16px;
+  color: #6C7E90;
+  width: 100%;
+  padding: 20px 30px;
+  transition: all 0.3s ease;
+}
+.sb-menu-items ul li i {
+  margin-right: 30px;
+}
+.sb-menu-items ul li:hover {
+  cursor: pointer;
+  border-left: 5px solid #368EFA;
+  color: #368EFA;
+  background-color: #20293C;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.sb-menu-items ul li.active {
+  border-left: 5px solid #368EFA;
+  color: #368EFA;
+  background-color: #20293C;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

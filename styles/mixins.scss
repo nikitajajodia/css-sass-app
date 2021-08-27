@@ -1,0 +1,16 @@
+@mixin sb-user-profile-fonts {
+    color: $theme-sb-font-color;
+    margin: 0px;
+}
+
+@mixin sb-menu-item-hover {
+    border-left: 5px solid $theme-base-active-color;
+    color: $theme-base-active-color;
+    background-color: #20293C;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@mixin sb-user-profile-animation {
+    transition: all 0.5s ease;
+}
